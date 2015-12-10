@@ -1,0 +1,25 @@
+html, body {
+  height: 100%;
+}
+body {
+  display: flex;
+}
+.box {
+  flex: 1;
+  display: flex;
+  flex-flow: column;
+  padding: 6px;
+}
+.box-title {
+  font-weight: bold;
+  font-size: 2em;
+  flex: none;
+}
+.box-children {
+  flex: 1;
+  display: flex;
+  flex-flow: column;
+}
+.new-child {
+  flex: none;
+}
