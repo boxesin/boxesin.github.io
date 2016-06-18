@@ -1,16 +1,22 @@
-html, body {
+html {
   height: 100%;
 }
-body, .box {
+html, body, .box {
   display: flex;
   align-items: stretch;
   flex-flow: column;
+}
+body {
+  flex: 1;
+}
+.box {
+  flex: none;
 }
 .box-title {
   flex: none;
 }
 .box-children {
-  flex: 1;
+  flex: none;
   display: flex;
   flex-flow: column;
 }
