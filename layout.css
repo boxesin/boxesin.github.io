@@ -1,12 +1,10 @@
 html, body {
   height: 100%;
 }
-body {
+body, .box {
   display: flex;
-}
-.box {
   flex: 1;
-  display: flex;
+  align-items: stretch;
   flex-flow: column;
   padding: 6px;
 }
