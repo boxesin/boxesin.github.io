@@ -5,11 +5,8 @@ body, .box {
   display: flex;
   align-items: stretch;
   flex-flow: column;
-  padding: 6px;
 }
 .box-title {
-  font-weight: bold;
-  font-size: 2em;
   flex: none;
 }
 .box-children {

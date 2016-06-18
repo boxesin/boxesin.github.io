@@ -1,0 +1,7 @@
+body, .box {
+  padding: 6px;
+}
+.box-title {
+  font-weight: bold;
+  font-size: 2em;
+}
