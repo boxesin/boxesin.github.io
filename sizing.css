@@ -2,7 +2,6 @@ body, .box {
   padding: 6px;
 }
 .box {
-  flex: none;
   margin-bottom: 6px;
   border-width: 1px;
 }
