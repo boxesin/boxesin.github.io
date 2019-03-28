@@ -5,6 +5,9 @@ body, .box {
   margin-bottom: 6px;
   border-width: 1px;
 }
+.box-contents {
+  margin-top: 6px;
+}
 .box-title {
   font-weight: bold;
   font-size: 2em;

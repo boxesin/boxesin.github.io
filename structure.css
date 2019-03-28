@@ -1,6 +1,9 @@
 html {
   height: 100%;
 }
+[hidden] {
+  display: none !important;
+}
 html, body, .box {
   display: flex;
   align-items: stretch;
@@ -12,10 +15,18 @@ body {
 .box {
   flex: none;
 }
+.box-headline {
+  flex: none;
+  display: flex;
+  flex-flow: row nowrap;
+}
 .box-title {
+  flex: 1;
+}
+.box-toggle {
   flex: none;
 }
-.box-children {
+.box-contents, .box-children {
   flex: none;
   display: flex;
   flex-flow: column;
